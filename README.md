@@ -1,14 +1,14 @@
 # Zero-Knowledge Proof Performance Laboratory
 
-## 📖 About
+## About
 
 A research laboratory for evaluating the performance characteristics of zero-knowledge proof systems, with emphasis on proving time, verification time, proof size, memory, and scalability.
 
-## 🎯 Why It Exists
+## Why It Exists
 
 Zero-knowledge systems provide powerful privacy and verification guarantees but can impose substantial computational and memory costs. This laboratory is intended to make those trade-offs measurable.
 
-## ✨ Planned Features
+## Planned Features
 
 - Proof-generation benchmarks
 - Verification benchmarks
@@ -18,13 +18,13 @@ Zero-knowledge systems provide powerful privacy and verification guarantees but 
 - Parameter comparisons
 - Reproducible benchmark reports
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Rust (planned)
 - ZK proving libraries selected by experiment
 - Benchmarking/profiling tooling
 
-## 🏗 Architecture
+## Architecture
 
 ```text
 Statement / witness
@@ -40,34 +40,34 @@ Verifier
 Correctness + performance metrics
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 Currently a scaffold. Future code should separate circuits, proving backends, verification, benchmark harnesses, and reports.
 
-## 📋 Prerequisites
+## Prerequisites
 
 No runnable implementation is currently documented.
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 git clone https://github.com/matinwgg/zk-proof-performance-laboratory.git
 cd zk-proof-performance-laboratory
 ```
 
-## 🧮 Mathematical Foundations
+## Mathematical Foundations
 
 Relevant mathematics includes finite fields, polynomial commitments, arithmetic circuits, constraint systems, probability, polynomial identities, elliptic-curve concepts, and asymptotic complexity.
 
-## 🧪 Evaluation
+## Evaluation
 
 Report proof/verification latency distributions, memory, proof size, constraint count, hardware, parameters, and security level. Avoid comparing incompatible proof systems without normalizing assumptions.
 
-## 🔐 Security Scope
+## Security Scope
 
 Performance results do not establish zero-knowledge, soundness, or cryptographic security. Those properties must be supported by the underlying protocol's formal assumptions and reviewed implementation.
 
-## 🚧 Future Work
+## Future Work
 
 - Compare proof systems
 - Circuit optimization experiments
@@ -75,7 +75,7 @@ Performance results do not establish zero-knowledge, soundness, or cryptographic
 - GPU acceleration studies
 - Proof-size/security trade-off analysis
 
-## 🤝 Contributing
+## Contributing
 
 Include benchmark configuration, circuit dimensions, protocol parameters, and reproducibility information.
 
@@ -83,6 +83,6 @@ Include benchmark configuration, circuit dimensions, protocol parameters, and re
 
 See repository license information.
 
-## 👨‍💻 Author
+## Author
 
-**Matin Odoom**
+** A. Matin Odoom**
